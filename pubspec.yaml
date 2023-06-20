@@ -78,6 +78,9 @@ flutter:
       - images/icons/shoes.png
       - images/icons/shorts.png
       - images/icons/suit.png
+      - images/recents_p/
+
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
