@@ -183,7 +183,7 @@ class Myapp extends StatelessWidget {
             ),
           ),
           Container(
-            height: 350,
+            height: 550,
             child: Product(),
           ),
         ],

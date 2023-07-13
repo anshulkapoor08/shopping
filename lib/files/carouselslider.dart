@@ -13,4 +13,4 @@ class _CarouselSliderState extends State<CarouselSlider> {
 
     );
   }
-}
+}1

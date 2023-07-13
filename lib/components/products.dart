@@ -11,13 +11,13 @@ class _ProductState extends State<Product> {
   var product_list = [
     {
       "name": "Sports_tighty",
-      "picture": "images/icons/bags.png",
+      "picture": "recents_p/a1.jpeg",
       "old_price": "560",
       "price": "450",
     },
     {
       "name": "pants",
-      "picture": "images/p1.jpg",
+      "picture": "images/recents_p/bp2.jpeg",
       "old_price": "980",
       "price": "730",
     },
@@ -69,8 +69,10 @@ class Single_prod extends StatelessWidget {
                   ),
                 ),
               ),
-             child: Image.asset(
-              prod_picture != null ? prod_picture : "Hello",
+            child: Image.asset(
+              prod_picture !=  null ? prod_picture : "Hello",
+
+
               // prod_picture,
                fit: BoxFit.cover,
              ),
